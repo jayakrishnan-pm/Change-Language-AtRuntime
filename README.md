@@ -4,6 +4,7 @@ Sample Application shows the lanugage switching at run time using a single line 
 
 ``
 LocaleHelper.setLocale(MainActivity.this, mLanguageCode);
+
 recreate();
 ``
 
