@@ -1,5 +1,12 @@
 # ChangeLocaleAtRuntime
 
+Sample Application shows the lanugage switching at run time using a single line code using a Helper class. 
+
+``
+LocaleHelper.setLocale(MainActivity.this, mLanguageCode);
+recreate();
+``
+
 ![dev](https://user-images.githubusercontent.com/6814816/31184543-47618804-a947-11e7-9997-3611620d509f.png)
 
 # LICENSE 
